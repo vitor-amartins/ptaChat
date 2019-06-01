@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/chat.css">
+    <title>Chat</title>
+</head>
+
+<body>
+    <form action="/chat" method="post">
+        <div>
+            <label for="author">Autor:</label>
+            <input type="text" name="author" id="author">
+        </div>
+        <div>
+            <label for="mensagem">Mensagem:</label>
+            <input type="text" name="mensagem" id="mensagem">
+            <button type="submit">Enviar</button>
+        </div>
+    </form>
+
+    <div id="msgs">
+
+    </div>
+    <script src="./js/chat.js"></script>
+</body>
+
+</html>

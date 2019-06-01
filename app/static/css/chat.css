@@ -1,0 +1,11 @@
+div#msgs {
+    background-color: red;
+    widows: 900px;
+    height: 500px;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+div#msgs > div {
+    padding: 0 50px;
+}
